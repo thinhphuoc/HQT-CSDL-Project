@@ -1,5 +1,7 @@
 ﻿CREATE DATABASE QLHH  --quản lí hàng hóa
 
+-- drop database QLHH
+
 CREATE TABLE DOITAC
 (
 	MADT Char(10),
@@ -17,6 +19,15 @@ CREATE TABLE DOITAC
 	CONSTRAINT PK_DOITAC
 	PRIMARY KEY (MADT)
 )
+
+/*drop table DOITAC
+--drop table HOPDONG
+--drop table KHACHHANG
+--Drop table DONHANG
+--drop table CT_DONHANG
+--drop table SANPHAM
+--drop table TAIXE
+--drop table CHINHANH*/
 
 CREATE TABLE HOPDONG
 (
@@ -88,6 +99,7 @@ CREATE TABLE TAIXE
 	BIENSO	Varchar(12),
 	KHUVUC	NText,
 	EMAIL	Varchar(50),
+	PhiTheChan Money,
 	TKNGANHANG	Varchar(20),
 
 	CONSTRAINT PK_TAIXE
@@ -126,3 +138,4 @@ alter table CT_DONHANG add
 
 alter table CHINHANH add
 	constraint FK_DOITAC_CHINHANH foreign key (MADT) references DOITAC (MADT)
+
