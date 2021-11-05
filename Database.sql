@@ -116,26 +116,24 @@ CREATE TABLE CT_DONHANG
 	PRIMARY KEY (MADH,MASP)
 )
 
-
 -- Tạo khóa ngoại
 alter table SANPHAM add
-	constraint FK_DOITAC_SANPHAM foreign key (MADT) references DOITAC (MADT)
+	constraint FK_SANPHAM_DOITAC foreign key (MADT) references DOITAC (MADT)
 
 alter table HOPDONG add
-	constraint FK_DOITAC_HOPDONG foreign key (MADT) references DOITAC (MADT)
+	constraint FK_HOPDONG_DOITAC foreign key (MADT) references DOITAC (MADT)
 
 alter table DONHANG add
-	constraint FK_KHACHHANG_DONHANG foreign key (MAKH) references KHACHHANG (MAKH)
+	constraint FK_DONHANG_KHACHHANG foreign key (MAKH) references KHACHHANG (MAKH)
 
 alter table  DONHANG add
 	constraint FK_DONHANG_TAIXE foreign key (MATX) references TAIXE (MATX)
 
 alter table CT_DONHANG add
-	constraint FK_DONHANG_CT_DONHANG foreign key (MADH) references DONHANG (MADH)
+	constraint FK_CT_DONHANG_DONHANG foreign key (MADH) references DONHANG (MADH)
 
 alter table CT_DONHANG add
 	constraint FK_CT_DONHANG_SANPHAM foreign key (MASP) references SANPHAM (MASP)
 
 alter table CHINHANH add
-	constraint FK_DOITAC_CHINHANH foreign key (MADT) references DOITAC (MADT)
-
+	constraint FK_CHINHANH_DOITAC foreign key (MADT) references DOITAC (MADT)
