@@ -1,7 +1,4 @@
-﻿use qlhh
-go
-
---Them role
+﻿--Them role
 CREATE ROLE _admin AUTHORIZATION db_owner;  
 CREATE ROLE NhanVien AUTHORIZATION db_securityadmin;  
 CREATE ROLE DoiTac 
@@ -52,6 +49,17 @@ VALUES(1,'NGUYEN VAN A','0102030405','NVA@GMAIL.COM'),
 (2,'NGUYEN VAN B','0102030406','NVB@GMAIL.COM'),
 (3,'NGUYEN VAN C','0102030407','NVC@GMAIL.COM'),
 (4,'NGUYEN VAN D','0102030408','NVD@GMAIL.COM')
+--TẠO DỮ LIỆU ĐƠN HÀNG
+INSERT DONHANG
+VALUES(1,'hinh thuc 1', 'dia chi giao hang 1',10000,1000,'dang giao','01','1'),
+(2,'hinh thuc 2', 'dia chi giao hang 2',20000,1000,'dang giao','01','1'),
+(3,'hinh thuc 3', 'dia chi giao hang 3',30000,1000,'dang giao','01','1')
+
+--TAO DỮ LIỆU TÀI XẾ
+INSERT TAIXE
+VALUES('01','TAI XE 1','1234560','010203040','DIA CHI TAI XE 1','BIEN SO 1','A','TAIXE1@GMAIL.COM',100,'010203040506'),
+('02','TAI XE 2','1234561','010203041','DIA CHI TAI XE 2','BIEN SO 2','B','TAIXE2@GMAIL.COM',100,'010203040507')
+
 -- TẠO DỮ LIỆU ĐỐI TÁC
 INSERT DOITAC
 VALUES
@@ -65,17 +73,8 @@ VALUES(1,'CUON SACH A',5000,'001'),
 (2,'CUON SACH B',6000,'002'),
 (3,'CUON SACH C',7000,'003'),
 (4,'CUON SACH D',8000,'004')
---TAO DỮ LIỆU TÀI XẾ
-INSERT TAIXE
-VALUES('01','TAI XE 1','1234560','010203040','DIA CHI TAI XE 1','BIEN SO 1','A','TAIXE1@GMAIL.COM',100,'010203040506'),
-('02','TAI XE 2','1234561','010203041','DIA CHI TAI XE 2','BIEN SO 2','B','TAIXE2@GMAIL.COM',100,'010203040507')
---TẠO DỮ LIỆU ĐƠN HÀNG
-INSERT DONHANG
-VALUES(1,'hinh thuc 1', 'dia chi giao hang 1',10000,1000,'dang giao','01','1'),
-(2,'hinh thuc 2', 'dia chi giao hang 2',20000,1000,'dang giao','01','1'),
-(3,'hinh thuc 3', 'dia chi giao hang 3',30000,1000,'dang giao','01','1')
-go
 
+go
 
 --Cap Quyen du lieu quyen
 ---admin---
