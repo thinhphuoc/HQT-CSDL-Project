@@ -1,4 +1,4 @@
-﻿use qlhh
+﻿use QLHH
 go
 
 --Them role
@@ -86,14 +86,14 @@ GRANT ALL ON TAIKHOAN TO _admin
 --DT. Doi tac co the them - xoa - sua thong tin san pham va chi nhanh co cung cap san pham nay
 Grant SELECT, UPDATE
 ON SANPHAM
-to Doitac 
+to DoiTac 
 Grant SELECT, UPDATE
 ON CHINHANH
-to Doitac
+to DoiTac
 --DT. Doi tac co the xem thong tin don hang va cap nhat thong tin don hang
 Grant SELECT, UPDATE
 ON DONHANG
-to Doitac 
+to DoiTac 
 
 ---KHACHHANG---
 --KH. Khach hang co the xem thong tin doi tac
@@ -124,6 +124,6 @@ to TaiXe
 
 ---NHANVIEN---
 --NV. nhanvien co the xem danh sach hop dong doi tac
-GRANT SELECT,INSERT,UPDATE ON HOPDONG TO nhanvien
+GRANT SELECT,INSERT,UPDATE ON HOPDONG TO NhanVien
 --NV. nhanvien co the xem sua xoa danh sach san pham
-GRANT SELECT, INSERT, DELETE, UPDATE ON SANPHAM TO nhanvien
+GRANT SELECT, INSERT, DELETE, UPDATE ON SANPHAM TO NhanVien
