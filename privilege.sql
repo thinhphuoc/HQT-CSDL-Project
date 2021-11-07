@@ -85,11 +85,12 @@ VALUES('HD00000001','001','Nguyen Van Teo', 5,1000000,0.1,'2022-11-11','DT000000
 ('HD00000003','003','Nguyen Thi A', 6,1000000,0.1,'2001-12-11','DT00000003')
 go
 
+/*
 delete from DONHANG
 delete from TAIXE
 delete from KHACHHANG
 delete from SANPHAM
-delete from DOITAC
+delete from DOITAC*/
 
 ---DOITAC---
 --DT. Doi tac co the them - xoa - sua thong tin san pham va chi nhanh co cung cap san pham nay
