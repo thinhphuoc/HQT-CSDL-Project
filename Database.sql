@@ -1,6 +1,6 @@
-﻿CREATE DATABASE QLHH  --quản lí hàng hóa
+CREATE DATABASE QLHH  --quản lí hàng hóa
 
--- drop database QLHH
+--drop database QLHH
 
 CREATE TABLE DOITAC
 (
@@ -19,20 +19,21 @@ CREATE TABLE DOITAC
 	CONSTRAINT PK_DOITAC
 	PRIMARY KEY (MADT)
 )
-
-/*drop table DOITAC
---drop table HOPDONG
---drop table KHACHHANG
---Drop table DONHANG
---drop table CT_DONHANG
---drop table SANPHAM
---drop table TAIXE
---drop table CHINHANH*/
+/*
+drop table DOITAC
+drop table HOPDONG
+drop table KHACHHANG
+drop table DONHANG
+drop table CT_DONHANG
+drop table SANPHAM
+drop table TAIXE
+drop table CHINHANH*/
 
 CREATE TABLE HOPDONG
 (
 	MAHD	Char(10),
 	MASOTHUEDOITAC	Char(10),
+	NGUOIDAIDIEN Nvarchar(50),
 	SOCHINHANHDANGKY SmallInt,
 	PHIKICHHOAT	Money,
 	PHIHOAHONG	Money,
@@ -58,6 +59,7 @@ CREATE TABLE SANPHAM
 	MASP Char(10),
 	TENSANPHAM Ntext,	
 	GIA Money,
+	LOAISP Ntext,
 	MADT CHAR(10),
 
 	CONSTRAINT PK_SANPHAM
@@ -115,7 +117,6 @@ CREATE TABLE CT_DONHANG
 	CONSTRAINT PK_CT_DONHANG
 	PRIMARY KEY (MADH,MASP)
 )
-
 
 -- Tạo khóa ngoại
 alter table SANPHAM add
