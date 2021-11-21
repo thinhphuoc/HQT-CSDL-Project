@@ -47,7 +47,7 @@ CREATE LOGIN t_tx WITH PASSWORD = 'taixe'; --MUST_CHANGE, CHECK_EXPIRATION = ON
 CREATE USER temp_taixe FOR LOGIN t_tx WITH DEFAULT_SCHEMA = QLHH
 ALTER ROLE TaiXe ADD MEMBER temp_taixe;
 
--- TẠO  DỮ LIỆU CHO KHÁCH HÀNG
+/*-- TẠO  DỮ LIỆU CHO KHÁCH HÀNG
 INSERT KHACHHANG
 VALUES(1,'NGUYEN VAN A','0102030405','NVA@GMAIL.COM'),
 (2,'NGUYEN VAN B','0102030406','NVB@GMAIL.COM'),
@@ -76,7 +76,7 @@ VALUES(1,'hinh thuc 1', 'dia chi giao hang 1',10000,1000,'dang giao','01','1'),
 (2,'hinh thuc 2', 'dia chi giao hang 2',20000,1000,'dang giao','01','1'),
 (3,'hinh thuc 3', 'dia chi giao hang 3',30000,1000,'dang giao','01','1')
 go
-
+*/
 
 --Cap Quyen du lieu quyen
 ---admin---
@@ -104,13 +104,6 @@ to KhachHang
 Grant SELECT
 ON DONHANG
 to KhachHang
---KH. Khach hang co the truy cap den thong tin ca nhan
-CREATE
-VIEW UV_TKH
-AS
-SELECT HOTEN
-FROM KHACHHANG KH JOIN TAIKHOAN TK ON KH.MAKH = TK.MANGUODUNG
-WHERE TK.TENDANGNHAP = CURRENT_USER --CURRETUSER LÀ TÀI KHOẢN ĐANG ĐĂNG NHẬP 
 
 GRANT SELECT,UPDATE ON UV_TKH TO khachhang
 
