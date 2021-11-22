@@ -1,4 +1,5 @@
 CREATE DATABASE QLHH  --quản lí hàng hóa
+go 
 USE QLHH
 --drop database QLHH
 
@@ -23,7 +24,7 @@ CREATE TABLE DOITAC
 	QUAN			NVarchar(20),
 	LOAIHANG		NVarchar(50),
 	DIACHI			NVarchar(50),
-	HOTEN			NTEXT,
+	TEN				NText,
 	SODTH			CHAR(10),
 	EMAIL			Varchar(50),
 	TENNGUOIDUNG	CHAR(13),
@@ -69,7 +70,7 @@ CREATE TABLE KHACHHANG
 CREATE TABLE SANPHAM
 (
 	MASP			Char(10),
-	TENSANPHAM		Ntext,	
+	TENSP		Ntext,	
 	GIA				Money,
 	TINHTRANG		BIT,
 	LOAIHANG		NVARCHAR,
@@ -82,9 +83,9 @@ CREATE TABLE DONHANG
 ( 
 	MADH			Char(10),
 	HINHTHUCTT		NVarchar(30),
-	DIACHIGIAOHANG	NText,
-	PHISANPHAM		Money,
-	PHIVANCHUYEN	Money,
+	DIACHI			NText,
+	PHISP			Money,
+	PHIVC			Money,
 	TINHTRANG		NVarchar(20),
 	MATX			Char(10),
 	MAKH			CHAR(10),
@@ -113,7 +114,7 @@ CREATE TABLE TAIXE
 	BIENSO			Varchar(12),
 	KHUVUC			NText,
 	EMAIL			Varchar(50),
-	TKNGANHANG		Varchar(20),
+	TAIKHOAN		Varchar(20),
 	TENNGUOIDUNG	CHAR(13),
 
 	CONSTRAINT PK_TAIXE
