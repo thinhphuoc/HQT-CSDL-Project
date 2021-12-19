@@ -106,7 +106,7 @@ namespace QLHH
         private void iconButton_CN3_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color3);
-            OpenChildForm(new ChildForm.QLSP());
+            OpenChildForm(new ChildForm.XemDSSP());
         }
 
         private void iconButton_CN4_Click(object sender, EventArgs e)

@@ -40,7 +40,7 @@ namespace QLHH.ChildForm
         private void QLSP_Load(object sender, EventArgs e)
         {
             cnn.Open();
-            string sql = "select * from DS_SANPHAM";  // lay het du lieu trong bang sinh vien
+            string sql = "select * from SANPHAM";  // lay het du lieu trong bang sinh vien
             SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
             com.CommandType = CommandType.Text;
             SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve

@@ -220,7 +220,7 @@ namespace QLHH
             this.Controls.Add(this.panel_Menu);
             this.Name = "form_TaiXe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nhóm 8 _ HQTCSDL";
+            this.Text = "Tài xế _ Trang chủ chính";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_Menu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

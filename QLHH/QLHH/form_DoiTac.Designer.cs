@@ -223,7 +223,7 @@ namespace QLHH
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label1.Location = new System.Drawing.Point(61, 83);
+            this.label1.Location = new System.Drawing.Point(49, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(168, 28);
             this.label1.TabIndex = 1;
@@ -236,7 +236,7 @@ namespace QLHH
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 55;
-            this.iconPictureBox1.Location = new System.Drawing.Point(115, 20);
+            this.iconPictureBox1.Location = new System.Drawing.Point(106, 20);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(55, 60);
             this.iconPictureBox1.TabIndex = 0;
@@ -286,7 +286,7 @@ namespace QLHH
             this.Controls.Add(this.panel_Menu);
             this.Name = "form_DoiTac";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nhóm 8 _ HQTCSDL";
+            this.Text = "Đối tác _ Trang chủ chính";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_Menu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

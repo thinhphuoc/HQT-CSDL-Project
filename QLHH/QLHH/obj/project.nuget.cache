@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V9iZWGPnK7UT7xrzerC+qOYLQc0yeVXX/aHYfxMjF0AdSgZS+TP9Wxpqxs+FKpvHV4yJILab1/bUDU9Z6Ul4ag==",
+  "dgSpecHash": "BWkDYLeMzbrGCL3uDX9YKADCnJDTzj8cy2K+RQUvoCKccxDnM+rGl2Idbu5PoMbQUhrEMZeWxAMvHM1OP9Ep6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\QLHH.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\QLHH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\fontawesome.sharp\\5.15.3\\fontawesome.sharp.5.15.3.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

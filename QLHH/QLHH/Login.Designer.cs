@@ -30,12 +30,12 @@ namespace QLHH
         private void InitializeComponent()
         {
             this.panel_Menu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.iconButton_CN5 = new FontAwesome.Sharp.IconButton();
             this.iconButton_CN4 = new FontAwesome.Sharp.IconButton();
             this.iconButton_CN3 = new FontAwesome.Sharp.IconButton();
             this.iconButton_CN2 = new FontAwesome.Sharp.IconButton();
             this.iconButton_CN1 = new FontAwesome.Sharp.IconButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel_Menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,17 @@ namespace QLHH
             this.panel_Menu.Size = new System.Drawing.Size(1182, 753);
             this.panel_Menu.TabIndex = 0;
             this.panel_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Menu_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(543, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(230, 54);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Đăng nhập";
             // 
             // iconButton_CN5
             // 
@@ -151,17 +162,6 @@ namespace QLHH
             this.iconButton_CN1.UseVisualStyleBackColor = false;
             this.iconButton_CN1.Click += new System.EventHandler(this.iconButton_CN1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(543, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 54);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Đăng nhập";
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -170,7 +170,7 @@ namespace QLHH
             this.Controls.Add(this.panel_Menu);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nhóm 8 _ HQTCSDL";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_Menu.ResumeLayout(false);
             this.panel_Menu.PerformLayout();

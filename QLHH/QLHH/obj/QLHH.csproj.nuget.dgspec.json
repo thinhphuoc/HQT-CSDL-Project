@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\QLHH.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\QLHH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\QLHH.csproj": {
+    "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\QLHH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\QLHH.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\QLHH.csproj",
         "projectName": "QLHH",
-        "projectPath": "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\QLHH.csproj",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\QLHH.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\source\\repos\\QLHH\\QLHH\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\HQT-CSDL-Project\\QLHH\\QLHH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
