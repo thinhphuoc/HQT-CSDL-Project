@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ChildForm\CapNhatDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\CapNhatSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\DangKyThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\LapHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\QLDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\QLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\SuaTTTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\XemDoiTac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\XemDSHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\XemDSSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildForm\XemTTTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="form_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="form_DoiTac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="form_KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="form_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="form_TaiXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
